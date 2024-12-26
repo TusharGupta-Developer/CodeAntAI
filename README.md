@@ -37,7 +37,7 @@ Ensure you have the following installed:
 3. Install dependencies:
    ```bash
    npm install
-   
+
 ### Running the Project
 1. Start the development server:
    ```bash
@@ -45,6 +45,65 @@ Ensure you have the following installed:
 2. Open your browser and visit:
    ```bash
    http://localhost:5173
+
+# 📁 Project Structure
+. ├── public/ # Static assets ├── src/ │ ├── components/ # Reusable React components │ ├── pages/ # Page components for routing │ ├── assets/ # Images, icons, and fonts │ ├── styles/ # Global and component-specific styles │ ├── App.jsx # Root component with routing │ ├── main.jsx # Entry point │ └── ... # Additional files as needed ├── .gitignore # Git ignore file ├── package.json # Project dependencies └── README.md # Project documentation
+
+
+# 🗺️ React Router Integration
+
+The application uses **React Router** for page navigation. Here's how the routing is implemented:
+
+## Example Routes:
+- `/` : Home page  
+- `/signin` : SignIn page   
+
+### Sample Routing Code in `App.jsx`:
+```jsx
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import Repositories from "./pages/Home/repositories";
+import SignIn from "./pages/SignIn/SignIn";
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Repositories />} />  {/* Default child route */}
+          <Route path="signin" element={<SignIn />} />
+          {/* <Route path="contact" element={<ContactPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default App;
+
+
+# 🌟 Demo  
+Include screenshots or a link to a deployed version of the project here.  
+
+[Live Project Link](https://your-live-project-link.com)  
+
+---
+
+# 📝 Notes  
+- This project implements the design provided in the Figma file as closely as possible.  
+- Utilization of CSS variables ensures consistent and reusable styling across components.  
+- Any deviations or creative decisions made during implementation are mentioned in the comments within the code.  
+
+# 🤝 Acknowledgments  
+- Thanks to **CodeAnt AI** for the opportunity to work on this project.  
+- Design inspiration and guidelines were provided via Figma.  
+
+---
+
+Let me know if you need any further modifications!
+
+
 
 
 

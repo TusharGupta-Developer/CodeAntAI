@@ -97,7 +97,7 @@ export default App;
 # 🌟 Live Demo  
 Include screenshots or a link to a deployed version of the project here.  
 
-[Live Project Link]([https://code-ant-ai-delta.vercel.app/])  
+[Live Project Link](https://code-ant-ai-delta.vercel.app/)  
 
 ---
 

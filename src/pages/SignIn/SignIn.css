@@ -1,0 +1,288 @@
+:root {
+  --body-color: #f9fafb;
+  --container-color: #ffffff;
+  --primary-color: #2563eb;
+  --border-color: #e5e7eb;
+  --text-color-dark: #111827;
+  --text-color-light: #6b7280;
+  --button-bg-hover: #1d4ed8;
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  background-color: var(--body-color);
+}
+
+.signin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+}
+
+.signin-card {
+  background-color: hsl(0deg 0% 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.signin-logo {
+  width: 100%;
+  margin-bottom: 4rem;
+  color: var(--text-color-dark);
+  font-size: x-large;
+
+}
+
+.signin-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color-dark);
+  margin-bottom: 1rem;
+}
+
+.signin-toggle {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--body-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  color: var(--text-color-light);
+  background: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.toggle-button.active {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.toggle-button:hover {
+  background-color: var(--button-bg-hover);
+  color: #ffffff;
+}
+
+.signin-buttons {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.signin-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color-dark);
+  background-color: var(--container-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.signin-btn.github i {
+  margin-right: 8px;
+  color: #000000;
+}
+
+.signin-btn.bitbucket i {
+  margin-right: 8px;
+  color: #2684ff;
+}
+
+.signin-btn.azure i {
+  margin-right: 8px;
+  color: #0078d7;
+}
+
+.signin-btn.gitlab i {
+  margin-right: 8px;
+  color: #fc6d26;
+}
+
+.signin-btn:hover {
+  background-color: var(--body-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signin-footer {
+  font-size: 12px;
+  color: var(--text-color-light);
+}
+
+.signin-footer a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.stats-container {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1920px) {
+
+  :root {
+    --primary-color: #2563eb;
+    --secondary-color: #6b7280;
+    --background-color: #f9fafb;
+    --text-dark: #111827;
+    --text-light: #6b7280;
+    --card-background: #ffffff;
+    --border-color: #e5e7eb;
+    --font-family: "Inter", sans-serif;
+  }
+
+  .signin-container {
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  .stats-container {
+    visibility: visible;
+    /* To show */
+
+  }
+
+  /* Left side - Stats Section */
+  .stats-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .stats-card {
+    background: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stats-title {
+    font-size: 18px;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+
+  .stats-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stats-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-dark);
+  }
+
+  .stats-label {
+    font-size: 14px;
+    color: var(--text-light);
+  }
+
+  .additional-stats {
+    display: flex;
+    align-items: center;
+    background: var(--card-background);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .chart-icon {
+    font-size: 24px;
+    margin-right: 1rem;
+    color: var(--primary-color);
+  }
+
+  .stats-growth {
+    font-size: 12px;
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+  }
+
+  /* Right side - Sign-In Section */
+  .signin-card {
+    flex: 1;
+    max-width: 50%;
+    padding: 2rem;
+    background: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .signin-logo {
+    font-size: 20px;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+  }
+
+  .signin-title {
+    font-size: 18px;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+  }
+
+  .signin-toggle {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  .toggle-button {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .toggle-button.active {
+    background: var(--primary-color);
+    color: #ffffff;
+  }
+
+  /* Bottom Left - Graphic Logo */
+  .background-logo {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    width: 100px;
+    height: 100px;
+    background: url('logo.svg') no-repeat center;
+    background-size: contain;
+    opacity: 0.2;
+  }
+
+  .github,
+  .bitbucket,
+  .azure{
+    display: none;
+  }
+}

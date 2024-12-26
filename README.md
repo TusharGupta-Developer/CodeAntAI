@@ -31,21 +31,18 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/codeant-frontend-assignment.git
-
 2. Navigate to the project directory:
    ```bash
    cd codeant-frontend-assignment 
-
 3. Install dependencies:
    ```bash
    npm install
-
+   
 ### Running the Project
 1. Start the development server:
    ```bash
    npm run dev
-
-1. Open your browser and visit:
+2. Open your browser and visit:
    ```bash
    http://localhost:5173
 

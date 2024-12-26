@@ -47,8 +47,8 @@ Ensure you have the following installed:
    http://localhost:5173
 
 # 📁 Project Structure:
-  .
-├── public/               # Static assets
+ ```bash
+ ├── public/               # Static assets
 ├── src/
 │   ├── components/       # Reusable React components
 │   ├── pages/            # Page components for routing              
@@ -59,6 +59,7 @@ Ensure you have the following installed:
 ├── .gitignore            # Git ignore file
 ├── package.json          # Project dependencies
 └── README.md             # Project documentation
+    
 
   # 🗺️ React Router Integration
 

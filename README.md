@@ -81,7 +81,7 @@ const App = () => {
 };
 
 export default App;
-
+```
 
 # 🌟 Demo  
 Include screenshots or a link to a deployed version of the project here.  

@@ -59,7 +59,7 @@ Ensure you have the following installed:
 ├── .gitignore            # Git ignore file
 ├── package.json          # Project dependencies
 └── README.md             # Project documentation
-    
+```
 
   # 🗺️ React Router Integration
 

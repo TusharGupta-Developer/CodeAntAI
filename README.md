@@ -10,7 +10,7 @@ This repository contains the frontend implementation of the design provided in t
 - **Vite**: For a fast and optimized development experience.
 
 ## 🎨 Features
-- Fully functional and responsive UI implementation based on the [Figma design](#figma-design-link).
+- Fully functional and responsive UI implementation based on the Figma design.
 - Utilization of **CSS variables** for consistent and reusable styling.
 - Clean, maintainable, and scalable code structure.
 - Adherence to best practices for performance and usability.
@@ -25,15 +25,15 @@ Follow the steps below to run the project locally:
 ### Prerequisites
 Ensure you have the following installed:
 - **Node.js** (v16+ recommended)
-- **npm** or **yarn**
+- **npm**
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/codeant-frontend-assignment.git
+   git clone https://github.com/TusharGupta-Developer/CodeAntAI.git
 2. Navigate to the project directory:
    ```bash
-   cd codeant-frontend-assignment 
+   cd CodeAntAI
 3. Install dependencies:
    ```bash
    npm install
@@ -46,11 +46,21 @@ Ensure you have the following installed:
    ```bash
    http://localhost:5173
 
-# 📁 Project Structure
-. ├── public/ # Static assets ├── src/ │ ├── components/ # Reusable React components │ ├── pages/ # Page components for routing │ ├── assets/ # Images, icons, and fonts │ ├── styles/ # Global and component-specific styles │ ├── App.jsx # Root component with routing │ ├── main.jsx # Entry point │ └── ... # Additional files as needed ├── .gitignore # Git ignore file ├── package.json # Project dependencies └── README.md # Project documentation
+# 📁 Project Structure:
+  .
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable React components
+│   ├── pages/            # Page components for routing              
+│   ├── styles/           # Global and component-specific styles
+│   ├── App.jsx           # Root component with routing
+│   ├── main.jsx          # Entry point
+│   └── App.css and index.css # Global and responsive styles 
+├── .gitignore            # Git ignore file
+├── package.json          # Project dependencies
+└── README.md             # Project documentation
 
-
-# 🗺️ React Router Integration
+  # 🗺️ React Router Integration
 
 The application uses **React Router** for page navigation. Here's how the routing is implemented:
 

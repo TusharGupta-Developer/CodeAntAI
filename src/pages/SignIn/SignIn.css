@@ -269,7 +269,7 @@ body {
   }
 
   /* Bottom Left - Graphic Logo */
-  .background-logo {
+  /* .background-logo {
     position: absolute;
     bottom: 2rem;
     left: 2rem;
@@ -278,7 +278,7 @@ body {
     background: url('logo.svg') no-repeat center;
     background-size: contain;
     opacity: 0.2;
-  }
+  } */
 
   .github,
   .bitbucket,

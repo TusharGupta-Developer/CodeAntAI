@@ -9,6 +9,11 @@ This repository contains the frontend implementation of the design provided in t
 - **CSS3**: For styling and ensuring responsiveness across devices.
 - **Vite**: For a fast and optimized development experience.
 
+# 🌟 Live Demo  
+Include screenshots or a link to a deployed version of the project here.  
+
+[Live Project Link](https://code-ant-ai-delta.vercel.app/) 
+
 ## 🎨 Features
 - Fully functional and responsive UI implementation based on the Figma design.
 - Utilization of **CSS variables** for consistent and reusable styling.
@@ -93,11 +98,6 @@ const App = () => {
 
 export default App;
 ```
-
-# 🌟 Live Demo  
-Include screenshots or a link to a deployed version of the project here.  
-
-[Live Project Link](https://code-ant-ai-delta.vercel.app/)  
 
 ---
 

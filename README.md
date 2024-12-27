@@ -8,7 +8,7 @@ This repository contains the frontend implementation of the design provided in t
 # 🌟 Live Demo  
 Include screenshots or a link to a deployed version of the project here.  
 
-[Live Project Link](https://code-ant-ai-delta.vercel.app/) 
+[Live Project Link](https://code-ant-ai-pkj2.vercel.app/) 
 
 ## 🛠️ Technologies Used
 - **ReactJS**: For building the UI components and managing state.

@@ -1,6 +1,14 @@
 # Frontend Developer Assignment - CodeAnt AI
 
-This repository contains the frontend implementation of the design provided in the Figma file as part of the Frontend Developer Intern assignment for CodeAnt AI. The project showcases a responsive and functional user interface built using **ReactJS, HTML, and CSS**, utilizing **CSS variables** and adhering to best practices for clean, maintainable, and scalable code.
+This repository contains the frontend implementation of the design provided in the Figma file as part of the Frontend Developer Intern assignment for CodeAnt AI. The project showcases a responsive and functional user interface built using **ReactJS**, HTML, **React Router**, and **CSS**, utilizing **CSS variables** and adhering to best practices for clean, maintainable, and scalable code.
+
+### 📝 Note:  
+-  I have yet to finish this project assignment completely due to the fact that I got to know about this project extremely late.
+
+# 🌟 Live Demo  
+Include screenshots or a link to a deployed version of the project here.  
+
+[Live Project Link](https://code-ant-ai-delta.vercel.app/) 
 
 ## 🛠️ Technologies Used
 - **ReactJS**: For building the UI components and managing state.
@@ -17,7 +25,7 @@ This repository contains the frontend implementation of the design provided in t
 - Seamless responsiveness across different screen sizes and devices.
 - Implementation of interactive and user-friendly components.
 - **React Router** for intuitive navigation between pages.
-
+  
 ## 🚀 Getting Started
 
 Follow the steps below to run the project locally:
@@ -93,11 +101,6 @@ const App = () => {
 
 export default App;
 ```
-
-# 🌟 Demo  
-Include screenshots or a link to a deployed version of the project here.  
-
-[Live Project Link](https://your-live-project-link.com)  
 
 ---
 

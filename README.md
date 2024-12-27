@@ -2,9 +2,6 @@
 
 This repository contains the frontend implementation of the design provided in the Figma file as part of the Frontend Developer Intern assignment for CodeAnt AI. The project showcases a responsive and functional user interface built using **ReactJS**, HTML, **React Router**, and **CSS**, utilizing **CSS variables** and adhering to best practices for **clean**, **maintainable**, and **scalable code**.
 
-### 📝 Note:  
--  I have yet to finish this project assignment completely due to the fact that I got to know about this project extremely late.
-
 # 🌟 Live Demo  
 Include screenshots or a link to a deployed version of the project here.  
 

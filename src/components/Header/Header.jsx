@@ -1,7 +1,15 @@
 import React from 'react'
 import "./Header.css"
 import { useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
+
 function Header() {
+
+    const navigate = useNavigate();
+
+    const handleAddRepository = () => {
+        navigate("/signin");
+    };
 
     useEffect(() => {
         const navMenu = document.getElementById("nav--menu");
@@ -68,8 +76,8 @@ function Header() {
 
                     <ul className="nav__list">
                         <li>
-                            <a href="#repositories" className="nav__link button repo-button">
-                                <i className="ri-folder-line"></i> Repositories
+                            <a onClick={handleAddRepository} className="nav__link button repo-button">
+                                <i className="ri-folder-line" ></i> Repositories
                             </a>
                         </li>
 

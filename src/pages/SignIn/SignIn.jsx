@@ -1,7 +1,14 @@
 import React from "react";
 import "./SignIn.css";
+import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
+    const navigate = useNavigate();
+
+    const handleAddRepository = () => {
+        navigate("/");
+    };
+
     return (
         <div className="signin-container">
             {/* Left side - Stats Section */}
@@ -43,25 +50,25 @@ const SignIn = () => {
                 <h1 className="signin-title">Welcome to CodeAnt AI</h1>
 
                 <div className="signin-toggle">
-                    <button className="toggle-button active">SAAS</button>
-                    <button className="toggle-button">Self Hosted</button>
+                    <button className="toggle-button active" onClick={handleAddRepository}>SAAS</button>
+                    <button className="toggle-button" onClick={handleAddRepository}>Self Hosted</button>
                 </div>
 
                 <div className="signin-buttons">
-                    <button className="signin-btn github">
+                    <button className="signin-btn github" onClick={handleAddRepository}>
                         <i className="ri-github-fill"></i> Sign in with Github
                     </button>
-                    <button className="signin-btn bitbucket">
+                    <button className="signin-btn bitbucket" onClick={handleAddRepository}>
                         <i className="fab fa-bitbucket"></i> Sign in with Bitbucket
                     </button>
 
-                    <button className="signin-btn azure">
+                    <button className="signin-btn azure" onClick={handleAddRepository}>
                         <i className="ri-microsoft-fill"></i> Sign in with Azure Devops
                     </button>
-                    <button className="signin-btn gitlab">
+                    <button className="signin-btn gitlab" onClick={handleAddRepository}>
                         <i className="ri-gitlab-fill"></i> Sign in with GitLab
                     </button>
-                    <button className="signin-btn sso">
+                    <button className="signin-btn sso" onClick={handleAddRepository}>
                         <i className="ri-key-fill"></i>  Sign in with SSO
                     </button>
                 </div>
